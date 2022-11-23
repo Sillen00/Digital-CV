@@ -31,9 +31,6 @@ a,a:hover{
 /*Header section--------------------------------------------------------------------*/
 header{
     height:var(--header-height);
-    position:fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     border-bottom: 2px solid var(--hero-color);
     background-color: rgb(26, 26, 26);
@@ -78,8 +75,6 @@ main{
     gap: 20px;
     padding: 100px 0 0 100px;
 }
-
-/* .main-text-div  */
 
 /*Footer section-----------------------------------------------------------------------*/
 footer{
