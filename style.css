@@ -2,6 +2,8 @@
 
 :root {
     --hero-color:white;
+    --header-height:5rem;
+    --footer-height:4rem;
 }
 
 *{
@@ -15,8 +17,9 @@ a,a:hover{
     text-decoration: none;
 }
 
+/*Page wrapper-----------------------------------------------------------------*/
 .wrapper{
-    width:100%;
+    width:100vw;
     height:100vh;
     background-image:url(./images/Simon-MC.jpg);
     background-size:cover;
@@ -24,4 +27,57 @@ a,a:hover{
     background-position: center;
 }
 
+/*Header section--------------------------------------------------------------------*/
+header{
+    height:var(--header-height);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid var(--hero-color);
+    background-color: rgb(26, 26, 26);
+}
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-div a{
+    padding: 5px;
+    margin: 0 0 0 50px;
+    font-size: 1.4rem;
+    color:var(--hero-color);
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin: 0 50px 0 0;
+}
+.menu ul a{
+    color:var(--hero-color);
+    text-transform: uppercase;
+    padding:5px;
+}
+
+
+/*Footer-----------------------------------------------------------------------*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    height: var(--footer-height);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 14px;
+}
