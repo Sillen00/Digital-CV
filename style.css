@@ -25,6 +25,7 @@ a,a:hover{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    color:var(--hero-color);
 }
 
 /*Header section--------------------------------------------------------------------*/
@@ -63,15 +64,14 @@ nav{
     text-transform: uppercase;
     padding:5px;
 }
+/*Main section--------------------------------------------------------*/
 
-
-/*Footer-----------------------------------------------------------------------*/
+/*Footer section-----------------------------------------------------------------------*/
 footer{
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: rgb(26, 26, 26);
-    color: white;
     height: var(--footer-height);
     width: 100vw;
     display: flex;
