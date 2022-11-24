@@ -26,14 +26,29 @@ a,a:hover{
     background-repeat: no-repeat;
     background-position: center;
     color:var(--hero-color);
+    z-index: -10;
 }
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 0;
+}
+
 
 /*Header section--------------------------------------------------------------------*/
 header{
+    position: relative;
     height:var(--header-height);
     width: 100%;
     border-bottom: 2px solid var(--hero-color);
-    background-color: rgb(26, 26, 26);
+    /* background-color: rgb(26, 26, 26); */
+    z-index: 100;
 }
 
 nav{
@@ -64,12 +79,10 @@ nav{
 /*Main section--------------------------------------------------------*/
 
 main{
-    margin-top: var(--header-height);
+    /* margin-top: var(--header-height); */
 }
 .main-text-div{
     position:relative;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -81,13 +94,27 @@ footer{
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: rgb(26, 26, 26);
+    /* background-color: rgb(26, 26, 26); */
     height: var(--footer-height);
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-footer p{
+.copyright{
     font-size: 14px;
+    margin: 0 0 0 50px;
+}
+
+.socials{
+    margin: 0 50px 0 0;
+    scale: 1.6;
+}
+.socials a i{
+    padding: 5px;
+    color: whitesmoke;
+    transition: 1s;
+}
+.socials a i:hover{
+    transform: translateY(-5px);
 }
