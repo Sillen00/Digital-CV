@@ -75,26 +75,45 @@ nav{
     color:var(--hero-color);
     text-transform: uppercase;
     padding:5px;
+    transition: 1s;
 }
+
+.menu ul a:hover{
+    color: #00e444;
+    box-shadow: 0px 1px 0px white;
+}
+
 /*Main section--------------------------------------------------------*/
 
 main{
-    /* margin-top: var(--header-height); */
+    position:relative;
 }
 .main-text-div{
-    position:relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 100px 0 0 100px;
+    gap: 18px;
+    padding: 150px 0 0 50px;
 }
+.main-text-div h1{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.main-text-div h2{
+    font-size: 90px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+}
+.main-text-div p{
+    font-size: 20px;
+}
+
 
 /*Footer section-----------------------------------------------------------------------*/
 footer{
     position: absolute;
     bottom: 0;
     left: 0;
-    /* background-color: rgb(26, 26, 26); */
     height: var(--footer-height);
     width: 100vw;
     display: flex;
