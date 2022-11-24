@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --hero-color:white;
+    --white-color:white;
+    --green-color:#00e444;
     --header-height:5rem;
     --footer-height:4rem;
 }
@@ -18,7 +19,7 @@ a,a:hover{
 }
 
 body{
-    color: white;
+    color: var(--white-color);
 }
 
 /*Page wrapper-----------------------------------------------------------------*/
@@ -38,9 +39,8 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     opacity: 0.6;
-    z-index: 0;
 }
 
 
@@ -49,9 +49,8 @@ header{
     position: relative;
     height:var(--header-height);
     width: 100%;
-    border-bottom: 2px solid var(--hero-color);
-    /* background-color: rgb(26, 26, 26); */
-    z-index: 100;
+    border-bottom: 2px solid var(--white-color);
+    z-index: 10;
 }
 
 nav{
@@ -62,10 +61,12 @@ nav{
 }
 
 .logo-div a{
+    position: relative;
     padding: 5px;
     margin: 0 0 0 50px;
     font-size: 1.4rem;
-    color:var(--hero-color);
+    color:var(--white-color);
+    z-index: 20;
 }
 
 .menu ul{
@@ -75,15 +76,15 @@ nav{
     margin: 0 50px 0 0;
 }
 .menu ul a{
-    color:var(--hero-color);
+    color:var(--white-color);
     text-transform: uppercase;
     padding:5px;
     transition: 1s;
 }
 
 .menu ul a:hover{
-    color: #00e444;
-    box-shadow: 0px 1px 0px white;
+    color: var(--green-color);
+    box-shadow: 0px 1px 0px var(--white-color);
 }
 
 .hamburger{
@@ -149,7 +150,7 @@ footer{
 }
 .socials a i{
     padding: 5px;
-    color: var(--hero-color);
+    color: var(--white-color);
     transition: 1s;
 }
 .socials a i:hover{
@@ -158,9 +159,6 @@ footer{
 
 
 @media screen and (max-width: 1023px) {
-    .main-text-div{
-        /* padding:100px 0 0 50px; */
-    }
     .main-text-div h1, .main-text-div p{
         font-size: 1rem;
     }    
@@ -182,6 +180,19 @@ footer{
     }
     .menu.active{
         display: block;
+        background-color: green;
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        font-size: 3rem;
+        margin: 150px 0 0 0;
     }
 
 }
