@@ -180,5 +180,8 @@ footer{
     .hamburger.active{
         background-image: url(./images/xmark-solid.svg);
     }
+    .menu.active{
+        display: block;
+    }
 
 }
