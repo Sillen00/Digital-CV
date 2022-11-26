@@ -149,15 +149,15 @@ footer{
 
 .socials{
     margin: 0 50px 0 0;
-    scale: 2;
 }
 .socials a i{
     padding: 5px;
     color: var(--white-color);
     transition: 1s;
+    font-size: 2.3rem;
 }
 .socials a i:hover{
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 

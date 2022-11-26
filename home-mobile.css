@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media (width <= 767px) {
     .menu{
         display: none;
     }
@@ -46,6 +46,9 @@
         margin-right: 0px;
     }
     .copyright{
-        margin: 0 0 0 10px;
+        display: none;
+    }
+    .socials{
+        margin: auto;
     }
 }
