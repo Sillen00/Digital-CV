@@ -9,7 +9,8 @@ function clickFirstPageScene(){
     window.onclick = toggleToHomePage;
 };
 function toggleToHomePage(){
-    document.querySelector(".wrapper").style.display = "block";
+    document.querySelector(".first-page-scene").style.display = "none";
+    document.querySelector(".first-page-scene-text").style.display = "none";
 }
 
 

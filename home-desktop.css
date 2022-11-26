@@ -35,6 +35,7 @@ body{
     transform:translateX(-50%);
     background-color: var(--blue-color);
     box-shadow: 0px 0px 0px 1800px var(--blue-color);
+    z-index: 1000;
 }
 .first-page-scene:before,
 .first-page-scene:after{
@@ -58,11 +59,11 @@ body{
     transform: translateX(-50%);
     font-size: 2rem;
     text-align: center;
+    z-index: 1000;
 }
 
 /*Page wrapper-----------------------------------------------------------------*/
 .wrapper{
-    display: none; /*Displays "block" when clicking on first page scene*/
     position: absolute;
     width:100vw;
     height:100vh;
