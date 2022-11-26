@@ -6,7 +6,7 @@ function main(){
 }
 
 function clickFirstPageScene(){
-    window.onclick = toggleToHomePage;
+    document.onclick = toggleToHomePage;
 };
 function toggleToHomePage(){
     document.querySelector(".first-page-scene").style.display = "none";
