@@ -1,0 +1,9 @@
+@media screen and (max-width: 1023px) {
+    .main-text-div h1, .main-text-div p{
+        font-size: 1rem;
+    }    
+    .main-text-div h2{
+        font-size: 65px;
+    }
+
+}
