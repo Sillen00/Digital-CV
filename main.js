@@ -1,8 +1,17 @@
 window.addEventListener("DOMContentLoaded", main);
 
 function main(){
+    clickFirstPageScene();
     hamburgerMenuToggle();
 }
+
+function clickFirstPageScene(){
+    window.onclick = toggleToHomePage;
+};
+function toggleToHomePage(){
+    document.querySelector(".wrapper").style.display = "block";
+}
+
 
 
 function hamburgerMenuToggle(){
