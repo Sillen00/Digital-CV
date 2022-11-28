@@ -1,9 +1,10 @@
+/*Wrapper svart background---------------------------------- */
 .wrapper-portfolio{
     width:100vw;
     min-height:100vh;
     background-color: black;
 }
-
+/*Portfolio text heading ------------------------------------*/
 .h2-div{
     border-bottom: 2px solid var(--white-color);
 }
@@ -12,3 +13,63 @@
     font-size: 4.5rem;
     margin: 2rem 4rem;
 }
+
+/*Portfolio kort styling.*/
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    cursor: pointer;
+    background-color: var(--blue-color);
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    min-height: 370px;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img{
+    border:inset 2px black;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+.card-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    gap: 1rem;
+}
+.projekt-links{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+.projekt-links a{
+    color: var(--white-color);
+    transition: 0.3s;
+}
+.projekt-links a:hover{
+    transform: scale(1.1);
+}
+.card-date{
+    font-style:italic;
+}
+
