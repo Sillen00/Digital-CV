@@ -90,7 +90,6 @@ header{
     height:var(--header-height);
     width: 100%;
     border-bottom: 2px solid var(--white-color);
-    z-index: 10;
 }
 
 nav{
@@ -106,7 +105,6 @@ nav{
     margin: 0 0 0 50px;
     font-size: 1.4rem;
     color:var(--white-color);
-    z-index: 20;
 }
 
 .menu ul{
@@ -145,7 +143,7 @@ nav{
 
 /*Main section--------------------------------------------------------*/
 
-main{
+.index-main{
     position:relative;
     top: 50%;
     transform: translateY(-100%)
@@ -173,9 +171,9 @@ main{
 
 /*Footer section-----------------------------------------------------------------------*/
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 0;
+    /* left: 0; */
     height: var(--footer-height);
     width: 100vw;
     display: flex;

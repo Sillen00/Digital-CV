@@ -1,0 +1,14 @@
+.wrapper-portfolio{
+    width:100vw;
+    min-height:100vh;
+    background-color: black;
+}
+
+.h2-div{
+    border-bottom: 2px solid var(--white-color);
+}
+
+.portfolio-text-heading{
+    font-size: 4.5rem;
+    margin: 2rem 4rem;
+}
