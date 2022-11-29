@@ -1,6 +1,6 @@
 /*Wrapper svart background---------------------------------- */
 .wrapper-portfolio{
-    width:100vw;
+    max-width:100vw;
     min-height:100vh;
     background-color: black;
 }
@@ -11,15 +11,16 @@
 
 .portfolio-text-heading{
     font-size: 4.5rem;
-    margin: 1.2rem 4rem;
+    margin: 1.2rem 0rem 1.2rem 4rem;
+    color: var(--white-color);
 }
 
 /*Portfolio kort styling.*/
 .portfolio-holder{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
+    margin-bottom: var(--footer-height);
 }
 
 .card{
@@ -67,5 +68,13 @@
 }
 .card-date{
     font-style:italic;
+}
+
+
+@media (width <= 696px) {
+    footer{
+        background-color: black;
+    }
+
 }
 
