@@ -9,7 +9,7 @@
     border-bottom: 2px solid var(--white-color);
 }
 
-.portfolio-text-heading{
+.h2-text-heading{
     font-size: 4.5rem;
     margin: 1.2rem 0rem 1.2rem 4rem;
     color: var(--white-color);
@@ -19,6 +19,7 @@
 .portfolio-holder{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
     margin-bottom: var(--footer-height);
 }
