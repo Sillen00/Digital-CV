@@ -64,7 +64,7 @@ const item2 = {
   title: "Apple Copy",
   img: "./images/Apple-copy-liten.png",
   alt: "Image of my Apple website copy",
-  description: "Apple copy by me and Thomas Ingvarsson. Created using: HTML, CSS",
+  description: "Apple copy by me and Thomas Ingvarsson. My first school submission. Created using: HTML, CSS",
   gitLink: "https://github.com/Sillen00/Apple-Hemsida",
   dirrLink: "https://sillen00.github.io/Apple-Hemsida/",
   date: "October 2022",
