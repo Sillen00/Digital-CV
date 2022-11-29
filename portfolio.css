@@ -70,11 +70,7 @@
     font-style:italic;
 }
 
-
-@media (width <= 696px) {
-    footer{
-        background-color: black;
-    }
-
+footer{
+    background-color: black;
 }
 
