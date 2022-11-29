@@ -40,10 +40,6 @@
     transform: scale(1.1);
 }
 
-.card img{
-    border:inset 2px black;
-}
-
 .card-title{
     font-size: 1.5rem;
     font-weight: 800;
