@@ -19,7 +19,7 @@ a,a:hover{
 }
 
 body{
-    color: var(--white-color);
+    color: black;
 }
 /*First page smile scene ---------------------------------------------*/
 .first-page-scene {
@@ -158,15 +158,18 @@ nav{
 .main-text-div h1{
     font-size: 1.4rem;
     text-transform: uppercase;
+    color: var(--white-color);
 }
 .main-text-div h2{
     font-size: 95px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: bolder;
+    color: var(--white-color);
 }
 .main-text-div p{
     font-size: 20px;
+    color: var(--white-color);
 }
 
 
@@ -183,6 +186,7 @@ footer{
 .copyright{
     font-size: 14px;
     margin: 0 0 0 50px;
+    color: var(--white-color);
 }
 
 .socials{
