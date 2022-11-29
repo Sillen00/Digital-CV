@@ -47,6 +47,16 @@ function createPortfolioCard({
   portfolio.innerHTML += code;
 }
 
+const cardTemplate = {
+  title: "",
+  img: "",
+  alt: "",
+  description: "",
+  gitLink: "",
+  dirrLink: "",
+  date: "",
+}
+
 const item1 = {
   title: "Grottdykaren",
   img: "./images/Grott-dykaren-liten.png",
@@ -59,3 +69,7 @@ const item1 = {
     "https://sillen00.github.io/TextbaseradInteraktivUpplevelse-Uppgift/",
   date: "November 2022",
 };
+
+const item2 = {
+  
+}
