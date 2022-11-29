@@ -147,7 +147,7 @@ nav{
 .index-main{
     position:relative;
     top: 50%;
-    transform: translateY(-100%)
+    transform: translateY(-100%);
 }
 .main-text-div{
     display: flex;

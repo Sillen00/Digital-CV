@@ -1,4 +1,8 @@
 @media (width <= 1023px) {
+    .index-main{
+        display: flex;
+        justify-content: center;
+    }
     .main-text-div h1, .main-text-div p{
         font-size: 1rem;
     }    
