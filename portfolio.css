@@ -15,7 +15,7 @@
 }
 
 /*Portfolio kort styling.*/
-.portfolio{
+.portfolio-holder{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
