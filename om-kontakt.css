@@ -1,0 +1,41 @@
+.beskrivning-image-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6rem 6rem;
+}
+
+.underrubrik{
+    color: white;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.brodtext{
+    color: white;
+    max-width: 600px;
+    line-height: 1.5rem;
+}
+
+.beskrivning-image-div img{
+    width: 500px;
+}
+
+.utbildning-kunskaper-div{
+    display: flex;
+    justify-content: space-between;
+    margin: var(--footer-height) 6rem;
+}
+
+.utbildning{
+    padding-right: 18rem;
+}
+.kunskaper{
+    padding-left: 3rem;
+    border-left: 2px solid var(--white-color);
+}
+.h2-special-top-border{
+    border-top: 2px solid var(--white-color);
+}
+
+
+
