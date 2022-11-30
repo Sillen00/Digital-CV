@@ -52,10 +52,31 @@
         margin: auto;
     }
 
-/*Portfolio HTML Mobile---------------------------------------*/
+/*Portfolio css Mobile---------------------------------------*/
     .h2-div .h2-text-heading{
         font-size: 2rem;
         text-align: center;
         margin-left:0;
+    }
+
+/*About & contact css mobile----------------------------------*/
+    main .beskrivning-image-div{
+        margin: 6rem 2rem;
+    }
+    main .beskrivning-image-div img{
+        width: 280px;
+    }
+
+    main .utbildning-kunskaper-div{
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+    .utbildning-kunskaper-div .kunskaper{
+        border:none;
+        padding:0;
+    }
+    main .contact{
+        margin-left:2rem;
+        margin-right: 2rem;
     }
 }
