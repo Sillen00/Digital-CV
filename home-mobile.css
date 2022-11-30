@@ -79,4 +79,7 @@
         margin-left:2rem;
         margin-right: 2rem;
     }
+    #age-p-tag{
+        max-width: 280px;
+    }
 }
