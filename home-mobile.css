@@ -51,4 +51,11 @@
     .socials{
         margin: auto;
     }
+
+/*Portfolio HTML Mobile---------------------------------------*/
+    .h2-div .h2-text-heading{
+        font-size: 2rem;
+        text-align: center;
+        margin-left:0;
+    }
 }
