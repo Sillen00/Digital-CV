@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", main);
  * Calls hamburger menu
  */
 function main() {
-  hamburgerMenuToggle();
+  mobileMenuContentShowRemove();
   createPortfolioCard(item1);
   createPortfolioCard(item2);
 }

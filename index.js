@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", main);
 
 function main() {
   clickFirstPageScene();
-  hamburgerMenuToggle();
+  mobileMenuContentShowRemove();
   hideStartScene();
   ageInRealTime();
 }
@@ -20,4 +20,3 @@ function hideStartScene() {
     displayHomePage();
   }
 }
-
