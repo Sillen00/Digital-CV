@@ -1,7 +1,10 @@
+/*Introduktion intressen och bild.-----------------------*/
+
 .beskrivning-image-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
     margin: 6rem 6rem;
 }
 
@@ -17,8 +20,10 @@
 }
 
 .beskrivning-image-div img{
-    width: 500px;
+    width: 450px;
 }
+
+/*Utbildning och kunskaper---------------------*/
 
 .utbildning-kunskaper-div{
     display: flex;
@@ -33,6 +38,8 @@
     padding-left: 3rem;
     border-left: 2px solid var(--white-color);
 }
+
+/*Contact part*/
 .h2-div-special-top-border{
     border-top: 2px solid var(--white-color);
 }

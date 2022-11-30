@@ -10,4 +10,14 @@
         font-size: 65px;
     }
 
+    /*About & Contact HTML Tablet---------------------------------------*/
+
+    .beskrivning-image-div{
+        flex-direction: column;
+    }
+
+    .utbildning-kunskaper-div .utbildning{
+        padding-right: 3rem;
+    }
+
 }
