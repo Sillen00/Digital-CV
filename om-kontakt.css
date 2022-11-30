@@ -23,7 +23,7 @@
 .utbildning-kunskaper-div{
     display: flex;
     justify-content: space-between;
-    margin: var(--footer-height) 6rem;
+    margin: 4rem 6rem;
 }
 
 .utbildning{
@@ -36,6 +36,11 @@
 .h2-div-special-top-border{
     border-top: 2px solid var(--white-color);
 }
-
-
+.contact{
+    padding-bottom: 6rem;
+    margin: 6rem 0 var(--footer-height) 6rem;
+}
+.brodtext-botten{
+    margin-top: 2rem;
+}
 
