@@ -1,4 +1,6 @@
 @media (width <= 1023px) {
+    
+    /* Index Main tablet css-------------------------------------- */
     .index-main{
         display: flex;
         justify-content: center;

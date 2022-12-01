@@ -171,6 +171,7 @@ nav{
 }
 .main-text-div p{
     font-size: 20px;
+    height: 1rem;
     color: var(--white-color);
 }
 

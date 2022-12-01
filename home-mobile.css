@@ -1,9 +1,15 @@
 @media (width <= 767px) {
+    
+/* Header mobile style--------------------------------------------*/
     .menu{
         display: none;
     }
+    .logo-div a{
+        margin-left: 10px;
+    }
     .hamburger{
         display: block;
+        margin-right: 0px;
     }
     .hamburger.active{
         background-image: url(./images/xmark-solid.svg);
@@ -27,6 +33,7 @@
         margin: 150px 0 0 0;
     }
 
+    /* Main mobile styling-------------------------------- */
     .main-text-div{
         padding: 0 0 0 10px;
     }
@@ -39,12 +46,8 @@
     br {
         display: none;
     }
-    .logo-div a{
-        margin-left: 10px;
-    }
-    .hamburger{
-        margin-right: 0px;
-    }
+
+    /* Footer mobile style----------------------------------- */
     .copyright{
         display: none;
     }
@@ -52,14 +55,14 @@
         margin: auto;
     }
 
-/*Portfolio css Mobile---------------------------------------*/
+/*Portfolio css Mobile----------------------------------------------------------------*/
     .h2-div .h2-text-heading{
         font-size: 2rem;
         text-align: center;
         margin-left:0;
     }
 
-/*About & contact css mobile----------------------------------*/
+/*About & contact css mobile------------------------------------------------------------*/
     main .beskrivning-image-div{
         margin: 6rem 2rem;
     }
