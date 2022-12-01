@@ -3,6 +3,7 @@
 :root {
     --white-color: white;
     --blue-color:#0E4BEF;
+    --lightblue-color: lightblue;
     --header-height:5rem;
     --footer-height:4rem;
 }

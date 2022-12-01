@@ -5,6 +5,7 @@
     background-color: black;
 }
 
+/*Navbar links active ger blå boxshadow.*/
 .active-nav-link{
     box-shadow: 0px 2px 0px var(--blue-color);
 }
@@ -19,6 +20,32 @@
     font-size: 4.5rem;
     margin: 1.2rem 0rem 1.2rem 6rem;
     color: var(--white-color);
+}
+
+@keyframes background-pan{
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+.h2-text-heading span{
+    animation: background-pan 4s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--blue-color),
+        rgb(21, 124, 158),
+        rgb(118, 194, 220),
+        rgb(21, 124, 158),
+        var(--blue-color)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap; 
 }
 
 /*Portfolio kort styling.*/
