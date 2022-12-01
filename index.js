@@ -1,5 +1,7 @@
 window.addEventListener("DOMContentLoaded", main);
 
+
+/**Run function when DOM content loaded */
 function main() {
   clickFirstPageScene();
   mobileMenuContentShowRemove();
@@ -7,14 +9,17 @@ function main() {
   // typeWritingText();
 }
 
+/**Click anywhere on page to display home page. */
 function clickFirstPageScene() {
   document.onclick = displayHomePage;
 }
+/**Displays homepage */
 function displayHomePage() {
   sessionStorage.hideStartScene = true;
   document.querySelector(".first-page-scene").style.display = "none";
   document.querySelector(".first-page-scene-text").style.display = "none";
 }
+/**If startscene already showned. Don't show again  */
 function hideStartScene() {
   if (sessionStorage.hideStartScene) {
     displayHomePage();
