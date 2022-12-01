@@ -25,6 +25,8 @@ function hideStartScene() {
   }
 }
 
+
+/**Function with loop inside a loop that typing text. */
 function typeWritingText() {
   const textDisplay = document.querySelector("#type-writer");
   const phrases = [
@@ -69,9 +71,9 @@ function typeWritingText() {
         }
       }
     }
-    const spedUp = Math.random() * (80 - 50) + 50;
-    const normalSpeed = Math.random() * (300 - 200) + 200;
-    const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed;
+    const spedUp = Math.random() * (60 - 50) + 50;
+    const normalSpeed = Math.random() * (210 - 200) + 200;
+    const time = isEnd ? 1000 : isDeleting ? spedUp : normalSpeed;
     setTimeout(loop, time);
   }
   loop();
