@@ -9,7 +9,7 @@
 }
 
 .underrubrik{
-    color: white;
+    color: var(--blue-color);
     font-size: 2rem;
     margin: 2rem 0;
 }
@@ -17,6 +17,10 @@
     color: white;
     max-width: 600px;
     line-height: 1.5rem;
+}
+.brodtext span{
+    font-weight: bold;
+    text-decoration: underline; 
 }
 
 .beskrivning-image-div img{
