@@ -22,6 +22,9 @@
     font-weight: bold;
     text-decoration: underline; 
 }
+.curr-age-text{
+    color: var(--blue-color);
+}
 
 .beskrivning-image-div img{
     width: 450px;
