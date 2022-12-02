@@ -12,11 +12,11 @@
         margin-right: 0px;
     }
     .hamburger.active{
-        background-image: url(./images/xmark-solid.svg);
+        background-image: url(../images/xmark-solid.svg);
     }
     .menu.active{
         display: block;
-        background-image: url(./images/Blue-menu-background.jpg);
+        background-image: url(../images/Blue-menu-background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position:absolute;

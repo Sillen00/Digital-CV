@@ -1,8 +1,6 @@
 window.addEventListener("DOMContentLoaded", main);
 
-/**
- * Calls hamburger menu
- */
+/**Calls hamburger menu and create card items when DOM is loaded.*/
 function main() {
   mobileMenuContentShowRemove();
   createPortfolioCard(item1);

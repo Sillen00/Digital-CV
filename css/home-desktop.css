@@ -131,7 +131,7 @@ nav{
 
 .hamburger{
     display: none;
-    background-image:url(./images/bars-solid.svg);
+    background-image:url(../images/bars-solid.svg);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
