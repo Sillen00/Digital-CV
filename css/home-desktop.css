@@ -69,7 +69,7 @@ body{
     position: absolute;
     width:100vw;
     height:100vh;
-    background-image:url(./images/Simon-MC.jpg);
+    background-image:url(../images/Simon-MC.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
