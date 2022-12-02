@@ -51,12 +51,13 @@
 }
 
 /*Portfolio kort styling.*/
+
 .portfolio-holder{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: var(--footer-height);
+    padding-bottom: var(--footer-height);
 }
 
 .card{
