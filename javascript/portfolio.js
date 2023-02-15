@@ -91,7 +91,7 @@ const BtcConverter = {
 
 const Grottdykaren = {
   title: "Grottdykaren",
-  img: "./images/Grott-dykaren-liten.png",
+  img: "./images/Grott-dykaren.png",
   alt: "Image of my text based game: Grott dykaren",
   description:
     "This is a Interactive text based game where you dive with your friend to find some gold when suddenly your friend disapears. Created using: HTML, CSS, JS.",
@@ -104,7 +104,7 @@ const Grottdykaren = {
 
 const AppleCopy = {
   title: "Apple Copy",
-  img: "./images/Apple-copy-liten.png",
+  img: "./images/Apple-copy.png",
   alt: "Image of my Apple website copy",
   description: "Apple copy by me and Thomas Ingvarsson. My first school submission. Created using: HTML, CSS.",
   gitLink: "https://github.com/Sillen00/Apple-Hemsida",
