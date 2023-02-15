@@ -6,6 +6,7 @@ function main() {
   createPortfolioCard(item1);
   createPortfolioCard(item2);
   createPortfolioCard(item3);
+  createPortfolioCard(item4);
 }
 
 
@@ -53,10 +54,20 @@ const item1 = {
   description: "An original game from scratch using everything we've learned during the Front End course with an extra focus on OOP, TypeScript and the P5 library.",
   gitLink: "https://github.com/Sillen00/Star-Bomb-Game",
   dirrLink: "https://star-bomb.netlify.app/",
-  date: "Januari 2023",
+  date: "January 2023",
 }
 
 const item2 = {
+  title: "Todo Calendar",
+  img: "./images/TodoCalendar.png",
+  alt: "Calendar with sidebar where you can add to-dos",
+  description: "Group school project, To-Do calendar where you can add and remove to-dos. First time using Github with other people.",
+  gitLink: "https://github.com/Sillen00/To-Do-Calendar",
+  dirrLink: "",
+  date: "January 2023",
+}
+
+const item3 = {
   title: "Grottdykaren",
   img: "./images/Grott-dykaren-liten.png",
   alt: "Image of my text based game: Grott dykaren",
@@ -69,7 +80,7 @@ const item2 = {
   date: "November 2022",
 };
 
-const item3 = {
+const item4 = {
   title: "Apple Copy",
   img: "./images/Apple-copy-liten.png",
   alt: "Image of my Apple website copy",
