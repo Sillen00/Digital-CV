@@ -5,6 +5,7 @@ function main() {
   mobileMenuContentShowRemove();
   createPortfolioCard(item1);
   createPortfolioCard(item2);
+  createPortfolioCard(item3);
 }
 
 
@@ -46,6 +47,16 @@ const cardTemplate = {
 }
 
 const item1 = {
+  title: "Star Bomb",
+  img: "./images/StarBomb.png",
+  alt: "'Start game' page with 2 rockets and space backgrounds",
+  description: "An original game from scratch using everything we've learned during the Front End course with an extra focus on OOP, TypeScript and the P5 library.",
+  gitLink: "https://github.com/Sillen00/Star-Bomb-Game",
+  dirrLink: "https://star-bomb.netlify.app/",
+  date: "Januari 2023",
+}
+
+const item2 = {
   title: "Grottdykaren",
   img: "./images/Grott-dykaren-liten.png",
   alt: "Image of my text based game: Grott dykaren",
@@ -58,7 +69,7 @@ const item1 = {
   date: "November 2022",
 };
 
-const item2 = {
+const item3 = {
   title: "Apple Copy",
   img: "./images/Apple-copy-liten.png",
   alt: "Image of my Apple website copy",
