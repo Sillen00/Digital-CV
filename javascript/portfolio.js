@@ -6,6 +6,7 @@ function main() {
   createPortfolioCard(StarBomb);
   createPortfolioCard(NameGenerator);
   createPortfolioCard(TodoCalendar);
+  createPortfolioCard(BtcConverter);
   createPortfolioCard(Grottdykaren);
   createPortfolioCard(AppleCopy);
 }
@@ -78,12 +79,22 @@ const TodoCalendar = {
   date: "January 2023",
 }
 
+const BtcConverter = {
+  title: "Input Converter",
+  img: "./images/InputConverter.png",
+  alt: "Input converter webpage with orange background and to inputs to convert values",
+  description: "Converts your sats into btc and vice versa.",
+  gitLink: "https://github.com/Sillen00/Input-Converter-Sats-Btc",
+  dirrLink: "https://sillen00.github.io/Input-Converter-Sats-Btc/",
+  date: "February 2023",
+}
+
 const Grottdykaren = {
   title: "Grottdykaren",
   img: "./images/Grott-dykaren-liten.png",
   alt: "Image of my text based game: Grott dykaren",
   description:
-    "This is a Interactive text based game where you dive with your friend to find some gold when suddenly your friend disapears. Created using: HTML, CSS, JS",
+    "This is a Interactive text based game where you dive with your friend to find some gold when suddenly your friend disapears. Created using: HTML, CSS, JS.",
   gitLink:
     "https://github.com/Sillen00/TextbaseradInteraktivUpplevelse-Uppgift",
   dirrLink:
@@ -95,7 +106,7 @@ const AppleCopy = {
   title: "Apple Copy",
   img: "./images/Apple-copy-liten.png",
   alt: "Image of my Apple website copy",
-  description: "Apple copy by me and Thomas Ingvarsson. My first school submission. Created using: HTML, CSS",
+  description: "Apple copy by me and Thomas Ingvarsson. My first school submission. Created using: HTML, CSS.",
   gitLink: "https://github.com/Sillen00/Apple-Hemsida",
   dirrLink: "https://sillen00.github.io/Apple-Hemsida/",
   date: "October 2022",
