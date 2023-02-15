@@ -3,10 +3,11 @@ window.addEventListener("DOMContentLoaded", main);
 /**Calls hamburger menu and create card items when DOM is loaded.*/
 function main() {
   mobileMenuContentShowRemove();
-  createPortfolioCard(item1);
-  createPortfolioCard(item2);
-  createPortfolioCard(item3);
-  createPortfolioCard(item4);
+  createPortfolioCard(StarBomb);
+  createPortfolioCard(NameGenerator);
+  createPortfolioCard(TodoCalendar);
+  createPortfolioCard(Grottdykaren);
+  createPortfolioCard(AppleCopy);
 }
 
 
@@ -47,7 +48,7 @@ const cardTemplate = {
   date: "",
 }
 
-const item1 = {
+const StarBomb = {
   title: "Star Bomb",
   img: "./images/StarBomb.png",
   alt: "'Start game' page with 2 rockets and space backgrounds",
@@ -57,7 +58,17 @@ const item1 = {
   date: "January 2023",
 }
 
-const item2 = {
+const NameGenerator = {
+  title: "Name Generator",
+  img: "./images/NameGenerator.png",
+  alt: "Name generator website with future background and button to generate random name.",
+  description: "Side project i made using 'svenska-dagar-api' to get all names in Swedish 'namnsdagar' and generate random name.",
+  gitLink: "https://github.com/Sillen00/Random-Name-Generator",
+  dirrLink: "https://random-name-nameday.netlify.app/",
+  date: "January 2023",
+}
+
+const TodoCalendar = {
   title: "Todo Calendar",
   img: "./images/TodoCalendar.png",
   alt: "Calendar with sidebar where you can add to-dos",
@@ -67,7 +78,7 @@ const item2 = {
   date: "January 2023",
 }
 
-const item3 = {
+const Grottdykaren = {
   title: "Grottdykaren",
   img: "./images/Grott-dykaren-liten.png",
   alt: "Image of my text based game: Grott dykaren",
@@ -80,7 +91,7 @@ const item3 = {
   date: "November 2022",
 };
 
-const item4 = {
+const AppleCopy = {
   title: "Apple Copy",
   img: "./images/Apple-copy-liten.png",
   alt: "Image of my Apple website copy",
